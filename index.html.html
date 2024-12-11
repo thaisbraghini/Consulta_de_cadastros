@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="script.js"></script>
+    <style>
+        #Cadastro{
+            height: 5000px;
+            background-color: rgba(157, 195, 204, 0.663);
+            border-radius: 10px;
+        }
+        .Busca{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 80px;
+            top: 20px;
+            color:rgb(6, 1, 55);
+        }
+        .Consulta{
+            width: 600px;
+            height: 500px;
+            background-color:  rgba(157, 195, 204, 0.737);
+            border: 2px solid rgb(2, 2, 63);
+            position: relative;
+            left: 100px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+        }
+        .btn{
+            background-color: rgb(2, 2, 63);
+            color: white;
+            width: 200px;
+            right: 200px;
+            font-size: 30px;
+            border-radius: 10px;
+        }
+        .cpf{
+            font-size: 30px;
+            font-family: Arial, Helvetica, sans-serif;
+            
+        }
+        .campodigitação{
+            width: 300px;
+            height: 40px;
+            border-radius: 10px;
+        }
+        .users{
+            width: 60px;
+            height: 60px;
+            background-color:rgba(250, 235, 215, 0.349);
+            border-radius: 50%;
+            position: relative;
+            left: 250px;
+
+        }
+        .Nome{
+            font-size: 25px;
+            font-family: Arial, Helvetica, sans-serif;
+            width: 575px;
+            position: relative;
+            left: 5px;
+            height: 40px;
+            background-color: rgba(250, 235, 215, 0.349);
+            text-align: left;
+            border-radius: 8px;
+        }
+        .Nascimento{
+            font-size: 25px;
+            font-family: Arial, Helvetica, sans-serif;
+            width: 575px;
+            position: relative;
+            left: 5px;
+            height: 40px;
+            background-color: rgba(250, 235, 215, 0.349);
+            text-align: left;
+            border-radius: 8px;
+        }
+        .Email{
+            font-size: 25px;
+            font-family: Arial, Helvetica, sans-serif;
+            width: 575px;
+            height: 40px;
+            position: relative;
+            left: 5px;
+            background-color: rgba(250, 235, 215, 0.349);
+            text-align: left;
+            border-radius: 8px;
+        }
+        .Novocadastro{
+            width: 600px;
+            height: 500px;
+            background-color:  rgba(157, 195, 204, 0.737);
+            border: 2px solid rgb(2, 2, 63);
+            position: absolute;
+            top: 136px;
+            left: 800px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+        }
+    </style>
+</head>
+<body>
+    <div id="Cadastro">
+        <div class="div Busca text-center">
+            <div class=" row">
+                <p> Busca de Dados </p>
+            </div>
+        </div>
+        <div class=" Consulta col-6 text-center">
+            <form action="Busca de Dados">
+                <br>
+                <label class="cpf" for="">CPF</label>
+                <br>
+                <input class="campodigitação" type="text" id="cpf">
+            </form>
+            <br>
+            <button type="submit" class="btn btn-light " onclick="buscacliente()">Buscar</button>
+            <br>
+            <br>
+            <div class="users position-center">
+                <img id="face" alt="face">
+            </div>
+            <br>
+            <p class="Nome"><strong>Nome:</strong><span id="nome"></span></p>
+            <p class="Nascimento"><strong>Nascimento:</strong><span id="nascimento"></span></p>
+            <p class="Email"><strong>E-mail:</strong><span id="email"></span></p>
+        </div>
+            <div class=" Novocadastro col-6 text-center">
+                <p> Faça seu cadastro </p>
+                <label class="cpf" for="">CPF</label>
+                <br>
+                <input class="campodigitação" type="text" id="cadcpf">
+                <br>
+                <br>
+                <div class="users position-center">
+                    <img src="img/account_circle.png" id="face" alt="face">
+                </div>
+                <br>
+                <input type="text" class="Nome" id="cadnome" placeholder="Nome:">
+                <br><br>
+                <input type="text" class="Nascimento" id="cadnascimento" placeholder="Nascimento:">
+                <br><br>
+                <input type="text" class="Email" id="cademail" placeholder="E-mail:">
+                <br>
+                <br>
+                <button type="submit" class="btn btn-light" onclick="cadastrarcliente()">Cadastrar</button>
+            </div>
+        </div>
+</body>
+</html>

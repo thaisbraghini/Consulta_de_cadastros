@@ -1,0 +1,66 @@
+{
+    "12345678900": {
+        "face": "img/people1.png",
+        "nome": "Joao da Silva",
+        "data_nascimento": "1990-05-15",
+        "email": "joao.silva@example.com"
+    },
+    "98765432111": {
+        "face": "img/people-6.png",
+        "nome": "Maria Oliveira",
+        "data_nascimento": "1985-09-20",
+        "email": "maria.oliveira@example.com"
+    },
+    "11122233344": {
+        "face": "img/people-6.png",
+        "nome": "Carlos Pereira",
+        "data_nascimento": "1978-02-10",
+        "email": "carlos.pereira@example.com"
+    },
+    "55566677788": {
+        "face": "img/people-6.png",
+        "nome": "Ana Costa",
+        "data_nascimento": "1995-07-25",
+        "email": "ana.costa@example.com"
+    },
+    "99988877766": {
+        "face": "img/people-2.png",
+        "nome": "Paulo Souza",
+        "data_nascimento": "2000-11-30",
+        "email": "paulo.souza@example.com"
+    },
+    "1111111": {
+        "face": "img/people1.png",
+        "nome": "Adolfo Silveira",
+        "data_nascimento": "2000-07-25",
+        "email": "adolfo.silveira@example.com"
+    },
+    "566265": {
+        "face": "img/people-3.png",
+        "nome": "thais",
+        "data_nascimento": "546525",
+        "email": "thais@jhsdjh"
+    },
+    "456464564": {
+        "face": "img/people-4.png",
+        "nome": "patricia",
+        "data_nascimento": "25012024",
+        "email": "khjkh"
+    },
+    "2424252152": {
+        "face": "img/people-6.png",
+        "nome": "Joana",
+        "data_nascimento": "12-03-1945",
+        "email": "joana123@joana.com"
+    },
+    "11111111": {
+        "nome": "",
+        "data_nascimento": "",
+        "email": ""
+    },
+    "": {
+        "nome": "",
+        "data_nascimento": "",
+        "email": ""
+    }
+}
